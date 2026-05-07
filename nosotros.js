@@ -70,6 +70,48 @@ lib.ssMetadata = [
 
 
 
+(lib.Símbolo11 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Capa_1
+	this.text = new cjs.Text("Somos una marca apasionada por el sabor, dedicada a ofrecer el mejor pollo crujiente y jugoso en cada bocado, preparado con recetas especiales que conquistan desde el primer momento. Nos enfocamos en la calidad, el buen servicio y en crear experiencias deliciosas que se disfrutan en familia o con amigos.Inspirados en el estilo de KFC, buscamos innovar constantemente nuestro menú, manteniendo ese toque único que hace que cada visita sea especial. Nuestro compromiso es brindarte siempre comida fresca, sabrosa y hecha con dedicación, para que vuelvas una y otra vez.", "30px 'Times New Roman'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 35;
+	this.text.lineWidth = 773;
+	this.text.parent = this;
+	this.text.setTransform(388.3,117.6);
+
+	this.text_1 = new cjs.Text("Somos kfc", "60px 'Franklin Gothic Heavy'", "#FFFFFF");
+	this.text_1.textAlign = "center";
+	this.text_1.lineHeight = 70;
+	this.text_1.lineWidth = 334;
+	this.text_1.parent = this;
+	this.text_1.setTransform(357.55,2);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(0.1,1,1).p("Eg9XgqvMB6vAAAMAAABVfMh6vAAAg");
+	this.shape.setTransform(392.775,273.575);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#CC0000").s().p("Eg9XAqwMAAAhVfMB6vAAAMAAABVfg");
+	this.shape_1.setTransform(392.775,273.575);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text_1},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-1,-1,787.6,549.2);
+
+
 (lib.Símbolo10 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -320,6 +362,48 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,368.8,87.9);
 
 
+(lib.Interpolación11 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Capa_1
+	this.text = new cjs.Text("Somos una marca apasionada por el sabor, dedicada a ofrecer el mejor pollo crujiente y jugoso en cada bocado, preparado con recetas especiales que conquistan desde el primer momento. Nos enfocamos en la calidad, el buen servicio y en crear experiencias deliciosas que se disfrutan en familia o con amigos.Inspirados en el estilo de KFC, buscamos innovar constantemente nuestro menú, manteniendo ese toque único que hace que cada visita sea especial. Nuestro compromiso es brindarte siempre comida fresca, sabrosa y hecha con dedicación, para que vuelvas una y otra vez.", "30px 'Times New Roman'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 35;
+	this.text.lineWidth = 773;
+	this.text.parent = this;
+	this.text.setTransform(-4.45,-155.95);
+
+	this.text_1 = new cjs.Text("Somos kfc", "60px 'Franklin Gothic Heavy'", "#FFFFFF");
+	this.text_1.textAlign = "center";
+	this.text_1.lineHeight = 70;
+	this.text_1.lineWidth = 334;
+	this.text_1.parent = this;
+	this.text_1.setTransform(-35.2,-271.55);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(0.1,1,1).p("Eg9XgqvMB6vAAAMAAABVfMh6vAAAg");
+	this.shape.setTransform(0.025,0.025);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#CC0000").s().p("Eg9XAqwMAAAhVfMB6vAAAMAAABVfg");
+	this.shape_1.setTransform(0.025,0.025);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text_1},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-393.7,-274.5,787.5,549.1);
+
+
 // stage content:
 (lib.nosotros = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -437,29 +521,14 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(9).to({startPosition:0},0).to({_off:true},21).wait(97));
 
 	// texto
-	this.text = new cjs.Text("Somos una marca apasionada por el sabor, dedicada a ofrecer el mejor pollo crujiente y jugoso en cada bocado, preparado con recetas especiales que conquistan desde el primer momento. Nos enfocamos en la calidad, el buen servicio y en crear experiencias deliciosas que se disfrutan en familia o con amigos.Inspirados en el estilo de KFC, buscamos innovar constantemente nuestro menú, manteniendo ese toque único que hace que cada visita sea especial. Nuestro compromiso es brindarte siempre comida fresca, sabrosa y hecha con dedicación, para que vuelvas una y otra vez.", "30px 'Times New Roman'", "#FFFFFF");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 35;
-	this.text.lineWidth = 773;
-	this.text.parent = this;
-	this.text.setTransform(455.6,401.85);
+	this.instance_5 = new lib.Símbolo11("synched",0);
+	this.instance_5.setTransform(-431.95,557.6,1,1,0,0,0,392.8,273.6);
 
-	this.text_1 = new cjs.Text("Somos kfc", "60px 'Franklin Gothic Heavy'", "#FFFFFF");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 70;
-	this.text_1.lineWidth = 334;
-	this.text_1.parent = this;
-	this.text_1.setTransform(424.85,286.25);
+	this.instance_6 = new lib.Interpolación11("synched",0);
+	this.instance_6.setTransform(460.05,557.8);
 
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFFFFF").ss(0.1,1,1).p("Eg9XgqvMB6vAAAMAAABVfMh6vAAAg");
-	this.shape.setTransform(460.075,557.825);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#CC0000").s().p("Eg9XAqwMAAAhVfMB6vAAAMAAABVfg");
-	this.shape_1.setTransform(460.075,557.825);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text_1},{t:this.text}]}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.text_1},{t:this.text}]},126).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5}]}).to({state:[{t:this.instance_6}]},37).wait(90));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({_off:true,regX:0,regY:0,x:460.05,y:557.8},37).wait(90));
 
 	// barra
 	this.nosotros = new lib.Símbolo5();
@@ -487,23 +556,23 @@ if (reversed == null) { reversed = false; }
 	this.inicio.setTransform(373.3,130.4,1,1,0,0,0,184.4,44);
 	new cjs.ButtonHelper(this.inicio, 0, 1, 1);
 
-	this.instance_5 = new lib.k();
-	this.instance_5.setTransform(-57,-26,0.2648,0.2499);
+	this.instance_7 = new lib.k();
+	this.instance_7.setTransform(-57,-26,0.2648,0.2499);
 
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f().s("#FFFFFF").ss(1,1,1).p("ECsEAS3Mk/QAAAIsdAAEisDgS2IY3AA");
-	this.shape_2.setTransform(923.1875,120.725);
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("ECsEAS3Mk/QAAAIsdAAEisDgS2IY3AA");
+	this.shape.setTransform(923.1875,120.725);
 
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#CC0000").s().p("ECWoAS3Mk/QAAAMAAAgltMFRRAAAMAAAAltg");
-	this.shape_3.setTransform(1060.4,120.725);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#CC0000").s().p("ECWoAS3Mk/QAAAMAAAgltMFRRAAAMAAAAltg");
+	this.shape_1.setTransform(1060.4,120.725);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.instance_5},{t:this.inicio},{t:this.menu},{t:this.ubicaciones},{t:this.cupones},{t:this.nosotros}]}).wait(127));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance_7},{t:this.inicio},{t:this.menu},{t:this.ubicaciones},{t:this.cupones},{t:this.nosotros}]}).wait(127));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(821,424,1318.6999999999998,431);
+p.nominalBounds = new cjs.Rectangle(174.3,424,1965.3999999999999,431);
 // library properties:
 lib.properties = {
 	id: 'EDA225D79B6E554CA9EA2AA52BB7AFE1',
@@ -513,8 +582,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/nosotros_atlas_1.png?1778003726772", id:"nosotros_atlas_1"},
-		{src:"images/nosotros_atlas_2.png?1778003726772", id:"nosotros_atlas_2"}
+		{src:"images/nosotros_atlas_1.png?1778164953199", id:"nosotros_atlas_1"},
+		{src:"images/nosotros_atlas_2.png?1778164953199", id:"nosotros_atlas_2"}
 	],
 	preloads: []
 };
