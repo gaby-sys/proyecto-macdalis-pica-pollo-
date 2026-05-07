@@ -582,8 +582,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/nosotros_atlas_1.png?1778173500179", id:"nosotros_atlas_1"},
-		{src:"images/nosotros_atlas_2.png?1778173500179", id:"nosotros_atlas_2"}
+		{src:"images/nosotros_atlas_1.png?1778174141829", id:"nosotros_atlas_1"},
+		{src:"images/nosotros_atlas_2.png?1778174141829", id:"nosotros_atlas_2"}
 	],
 	preloads: []
 };
