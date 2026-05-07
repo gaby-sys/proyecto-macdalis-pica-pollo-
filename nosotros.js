@@ -2,10 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [
-		{name:"nosotros_atlas_1", frames: [[0,0,900,506],[0,1016,900,500],[0,1518,650,487],[0,508,900,506]]},
-		{name:"nosotros_atlas_2", frames: [[0,0,1181,1181],[0,1183,1200,798]]}
-];
+lib.ssMetadata = [];
 
 
 (lib.AnMovieClip = function(){
@@ -29,45 +26,39 @@ lib.ssMetadata = [
 
 
 (lib.kpng = function() {
-	this.initialize(ss["nosotros_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.kpng);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1181,1181);
 
 
 (lib.Mapadebits10 = function() {
-	this.initialize(ss["nosotros_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.Mapadebits10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,900,506);
 
 
 (lib.Mapadebits11 = function() {
-	this.initialize(ss["nosotros_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
+	this.initialize(img.Mapadebits11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1200,798);
 
 
-
-(lib.Mapadebits12 = function() {
-	this.initialize(ss["nosotros_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+(lib.Mapadebits13 = function() {
+	this.initialize(img.Mapadebits13);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,900,500);
 
 
 (lib.Mapadebits8 = function() {
-	this.initialize(ss["nosotros_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.Mapadebits8);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,650,487);
 
 
 (lib.Mapadebits9 = function() {
-	this.initialize(ss["nosotros_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.Mapadebits9);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,900,506);
 
 
 (lib.Símbolo11 = function(mode,startPosition,loop,reversed) {
@@ -124,7 +115,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.Mapadebits12();
+	this.instance = new lib.Mapadebits13();
 	this.instance.setTransform(0,0,0.9867,1.14);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -560,11 +551,11 @@ if (reversed == null) { reversed = false; }
 	this.instance_7.setTransform(-57,-26,0.2648,0.2499);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("ECsEAS3Mk/QAAAIsdAAEisDgS2IY3AA");
-	this.shape.setTransform(923.1875,120.725);
+	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("EiTMgewIsdAAEisDhEfIY3AAECsEBEgMk/QAAA");
+	this.shape.setTransform(923.2,438.375);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#CC0000").s().p("ECWoAS3Mk/QAAAMAAAgltMFRRAAAMAAAAltg");
+	this.shape_1.graphics.f("#CC0000").s().p("EiooAS3MAAAgltMFRRAAAMAAAAltg");
 	this.shape_1.setTransform(1060.4,120.725);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance_7},{t:this.inicio},{t:this.menu},{t:this.ubicaciones},{t:this.cupones},{t:this.nosotros}]}).wait(127));
@@ -572,7 +563,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(174.3,424,1965.3999999999999,431);
+p.nominalBounds = new cjs.Rectangle(174.3,424,1965.3999999999999,453.79999999999995);
 // library properties:
 lib.properties = {
 	id: 'EDA225D79B6E554CA9EA2AA52BB7AFE1',
@@ -582,8 +573,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/nosotros_atlas_1.png?1778175899533", id:"nosotros_atlas_1"},
-		{src:"images/nosotros_atlas_2.png?1778175899533", id:"nosotros_atlas_2"}
+		{src:"images/kpng.png?1778178463436", id:"kpng"},
+		{src:"images/Mapadebits10.png?1778178463436", id:"Mapadebits10"},
+		{src:"images/Mapadebits11.png?1778178463436", id:"Mapadebits11"},
+		{src:"images/Mapadebits13.png?1778178463436", id:"Mapadebits13"},
+		{src:"images/Mapadebits8.png?1778178463436", id:"Mapadebits8"},
+		{src:"images/Mapadebits9.png?1778178463436", id:"Mapadebits9"}
 	],
 	preloads: []
 };
