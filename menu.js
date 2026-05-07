@@ -3,10 +3,10 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"menu_atlas_1", frames: [[0,0,2000,1333]]},
-		{name:"menu_atlas_2", frames: [[0,0,1280,1280]]},
-		{name:"menu_atlas_3", frames: [[0,0,1181,1181]]},
-		{name:"menu_atlas_4", frames: [[802,1002,512,512],[1002,0,225,225],[0,1002,800,534],[0,0,1000,1000]]}
+		{name:"menu_atlas_1", frames: [[802,1002,512,512],[1002,0,225,225],[0,1002,800,534],[0,0,1000,1000]]},
+		{name:"menu_atlas_2", frames: [[0,0,1181,1181]]},
+		{name:"menu_atlas_3", frames: [[0,0,1280,1280]]},
+		{name:"menu_atlas_4", frames: [[0,0,2000,1333]]}
 ];
 
 
@@ -31,21 +31,21 @@ lib.ssMetadata = [
 
 
 (lib.k = function() {
-	this.initialize(ss["menu_atlas_3"]);
+	this.initialize(ss["menu_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.kl = function() {
-	this.initialize(ss["menu_atlas_4"]);
+	this.initialize(ss["menu_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits11 = function() {
-	this.initialize(ss["menu_atlas_1"]);
+	this.initialize(ss["menu_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -58,28 +58,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,3874,3334);
 
 
 (lib.Mapadebits13 = function() {
-	this.initialize(ss["menu_atlas_4"]);
+	this.initialize(ss["menu_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits14 = function() {
-	this.initialize(ss["menu_atlas_4"]);
+	this.initialize(ss["menu_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits15 = function() {
-	this.initialize(ss["menu_atlas_4"]);
+	this.initialize(ss["menu_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits8 = function() {
-	this.initialize(ss["menu_atlas_2"]);
+	this.initialize(ss["menu_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -501,11 +501,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Mapadebits12.png?1778169286695", id:"Mapadebits12"},
-		{src:"images/menu_atlas_1.png?1778169286631", id:"menu_atlas_1"},
-		{src:"images/menu_atlas_2.png?1778169286631", id:"menu_atlas_2"},
-		{src:"images/menu_atlas_3.png?1778169286631", id:"menu_atlas_3"},
-		{src:"images/menu_atlas_4.png?1778169286631", id:"menu_atlas_4"}
+		{src:"images/Mapadebits12.png?1778171509130", id:"Mapadebits12"},
+		{src:"images/menu_atlas_1.png?1778171509106", id:"menu_atlas_1"},
+		{src:"images/menu_atlas_2.png?1778171509106", id:"menu_atlas_2"},
+		{src:"images/menu_atlas_3.png?1778171509106", id:"menu_atlas_3"},
+		{src:"images/menu_atlas_4.png?1778171509106", id:"menu_atlas_4"}
 	],
 	preloads: []
 };
