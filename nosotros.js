@@ -28,7 +28,7 @@ lib.ssMetadata = [
 
 
 
-(lib.k = function() {
+(lib.kpng = function() {
 	this.initialize(ss["nosotros_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -556,7 +556,7 @@ if (reversed == null) { reversed = false; }
 	this.inicio.setTransform(373.3,130.4,1,1,0,0,0,184.4,44);
 	new cjs.ButtonHelper(this.inicio, 0, 1, 1);
 
-	this.instance_7 = new lib.k();
+	this.instance_7 = new lib.kpng();
 	this.instance_7.setTransform(-57,-26,0.2648,0.2499);
 
 	this.shape = new cjs.Shape();
@@ -582,8 +582,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/nosotros_atlas_1.png?1778174141829", id:"nosotros_atlas_1"},
-		{src:"images/nosotros_atlas_2.png?1778174141829", id:"nosotros_atlas_2"}
+		{src:"images/nosotros_atlas_1.png?1778174478928", id:"nosotros_atlas_1"},
+		{src:"images/nosotros_atlas_2.png?1778174478928", id:"nosotros_atlas_2"}
 	],
 	preloads: []
 };
