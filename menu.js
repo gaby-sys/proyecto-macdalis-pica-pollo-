@@ -430,7 +430,7 @@ if (reversed == null) { reversed = false; }
 
 	// Capa_2
 	this.instance = new lib.kl();
-	this.instance.setTransform(0,852,3.9063,0.4748);
+	this.instance.setTransform(0,862,3.9063,0.4748);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -501,11 +501,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Mapadebits12.png?1778171509130", id:"Mapadebits12"},
-		{src:"images/menu_atlas_1.png?1778171509106", id:"menu_atlas_1"},
-		{src:"images/menu_atlas_2.png?1778171509106", id:"menu_atlas_2"},
-		{src:"images/menu_atlas_3.png?1778171509106", id:"menu_atlas_3"},
-		{src:"images/menu_atlas_4.png?1778171509106", id:"menu_atlas_4"}
+		{src:"images/Mapadebits12.png?1778172398146", id:"Mapadebits12"},
+		{src:"images/menu_atlas_1.png?1778172398091", id:"menu_atlas_1"},
+		{src:"images/menu_atlas_2.png?1778172398091", id:"menu_atlas_2"},
+		{src:"images/menu_atlas_3.png?1778172398091", id:"menu_atlas_3"},
+		{src:"images/menu_atlas_4.png?1778172398091", id:"menu_atlas_4"}
 	],
 	preloads: []
 };
