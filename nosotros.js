@@ -3,8 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"nosotros_atlas_1", frames: [[0,0,1181,1181],[0,1183,1200,798]]},
-		{name:"nosotros_atlas_2", frames: [[0,0,900,506],[0,1016,900,500],[0,1518,650,487],[0,508,900,506]]}
+		{name:"nosotros_atlas_1", frames: [[0,0,900,506],[0,1016,900,500],[0,1518,650,487],[0,508,900,506]]},
+		{name:"nosotros_atlas_2", frames: [[0,0,1181,1181],[0,1183,1200,798]]}
 ];
 
 
@@ -29,42 +29,42 @@ lib.ssMetadata = [
 
 
 (lib.k = function() {
-	this.initialize(ss["nosotros_atlas_1"]);
+	this.initialize(ss["nosotros_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits10 = function() {
-	this.initialize(ss["nosotros_atlas_2"]);
+	this.initialize(ss["nosotros_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits11 = function() {
-	this.initialize(ss["nosotros_atlas_1"]);
+	this.initialize(ss["nosotros_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits12 = function() {
-	this.initialize(ss["nosotros_atlas_2"]);
+	this.initialize(ss["nosotros_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits8 = function() {
-	this.initialize(ss["nosotros_atlas_2"]);
+	this.initialize(ss["nosotros_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits9 = function() {
-	this.initialize(ss["nosotros_atlas_2"]);
+	this.initialize(ss["nosotros_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -527,8 +527,8 @@ if (reversed == null) { reversed = false; }
 	this.instance_6 = new lib.Interpolación11("synched",0);
 	this.instance_6.setTransform(460.05,557.8);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5}]}).to({state:[{t:this.instance_6}]},37).wait(90));
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({_off:true,regX:0,regY:0,x:460.05,y:557.8},37).wait(90));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5}]}).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_6}]},1).wait(90));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1).to({x:-407.2},0).wait(1).to({x:-382.5},0).wait(1).to({x:-357.8},0).wait(1).to({x:-333.1},0).wait(1).to({x:-308.4},0).wait(1).to({x:-283.7},0).wait(1).to({x:-259},0).wait(1).to({x:-234.3},0).wait(1).to({x:-209.6},0).wait(1).to({x:-184.9},0).wait(1).to({x:-160.2},0).wait(1).to({x:-135.5},0).wait(1).to({x:-110.75},0).wait(1).to({x:-86.05},0).wait(1).to({x:-61.35},0).wait(1).to({x:-36.65},0).wait(1).to({x:-11.95},0).wait(1).to({x:12.75},0).wait(1).to({x:37.45},0).wait(1).to({x:62.15},0).wait(1).to({x:86.85},0).wait(1).to({x:111.55},0).wait(1).to({x:136.25},0).wait(1).to({x:160.95},0).wait(1).to({x:185.7},0).wait(1).to({x:210.4},0).wait(1).to({x:235.1},0).wait(1).to({x:259.8},0).wait(1).to({x:284.5},0).wait(1).to({x:309.2},0).wait(1).to({x:333.9},0).wait(1).to({x:358.6},0).wait(1).to({x:383.3},0).wait(1).to({x:407.95},0).wait(1).to({x:432.65},0).wait(1).to({x:457.4},0).to({_off:true},1).wait(90));
 
 	// barra
 	this.nosotros = new lib.Símbolo5();
@@ -582,8 +582,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/nosotros_atlas_1.png?1778164953199", id:"nosotros_atlas_1"},
-		{src:"images/nosotros_atlas_2.png?1778164953199", id:"nosotros_atlas_2"}
+		{src:"images/nosotros_atlas_1.png?1778165529506", id:"nosotros_atlas_1"},
+		{src:"images/nosotros_atlas_2.png?1778165529507", id:"nosotros_atlas_2"}
 	],
 	preloads: []
 };
